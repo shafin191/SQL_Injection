@@ -1,0 +1,4 @@
+File Injection.php is prone to SQLi. To prevent the SQLi just comment in from line 70 to 100 
+and comment out line 39 to 66. 
+
+Also, you have to create the database in your system to simulate this code. 
