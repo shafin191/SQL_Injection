@@ -36,7 +36,7 @@
 		
 		
 		
-		
+		/*
 		
 		// Bind Parameter
 		
@@ -63,15 +63,15 @@
 
 		}
 		
-		
+		*/
 		
 		//SQL Injection
-		/*
+		
 		
 		$sql = "SELECT userid, userName,userPassword FROM userTable where userName= '$name' AND userPassword= '$pass'";		
 		
-        $result = mysqli_query($conn, $sql);
-        $row = mysqli_fetch_array($result,MYSQLI_ASSOC);	
+        	$result = mysqli_query($conn, $sql);
+       		$row = mysqli_fetch_array($result,MYSQLI_ASSOC);	
 		
 		
 		$active = $row['active'];
@@ -97,7 +97,7 @@
 				$error = "Usename or Password is incorrect";
 			}
 		}
-		*/
+		
 		$conn->close();
 		
 		?>
